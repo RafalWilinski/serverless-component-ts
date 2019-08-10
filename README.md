@@ -17,16 +17,22 @@ $ npm install -g serverless
 
 ### 2. Create
 
-Just create a `serverless.yml` file
+Just create a `serverless.yml` file:
 
 ```shell
 $ touch serverless.yml
 ```
 
-and clone component boilerplate
+clone component boilerplate:
 
 ```shell
 git clone https://github.com/RafalWilinski/serverless-component-ts
+```
+
+edit it and build it to plain JS:
+
+```shell
+cd serverless-component-ts && npm run build
 ```
 
 ### 3. Configure
@@ -45,8 +51,6 @@ tsComponent:
 ```shell
 $ serverless
 ```
-
-&nbsp;
 
 ### New to Components?
 
