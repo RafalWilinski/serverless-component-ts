@@ -30,7 +30,12 @@ Just create a `serverless.yml` file
 
 ```shell
 $ touch serverless.yml
-$ touch .env      # your AWS api keys
+```
+
+and clone component boilerplate
+
+```shell
+git clone https://github.com/RafalWilinski/serverless-component-ts
 ```
 
 ### 3. Configure
@@ -39,7 +44,7 @@ $ touch .env      # your AWS api keys
 # serverless.yml
 
 tsComponent:
-  component: '../src'
+  component: '../serverless-component-ts'
   inputs:
     foo: bar
 ```
