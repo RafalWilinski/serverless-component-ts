@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es6",
+    "lib": ["es6"],
+    "types": ["node"],
+    "moduleResolution": "node",
+    "typeRoots": ["@types"],
+    "module": "CommonJS"
+  },
+  "exclude": ["node_modules"]
+}

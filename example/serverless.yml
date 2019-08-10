@@ -1,0 +1,6 @@
+name: ts-component-test
+
+ts-component:
+  component: '../src'
+  inputs:
+    foo: bar
