@@ -9,11 +9,6 @@ Boilerplate for creating [Serverless Components](https://github.com/serverless/c
   </a>
 </p>
 
-1. [Install](#1-install)
-2. [Create](#2-create)
-3. [Configure](#3-configure)
-4. [Deploy](#4-deploy)
-
 ### 1. Install
 
 ```shell
